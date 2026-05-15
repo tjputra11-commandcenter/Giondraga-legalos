@@ -20,6 +20,7 @@ import {
   Eye,
   Sparkles,
   Filter,
+  X
 } from 'lucide-react'
 
 const typeFilters = [
