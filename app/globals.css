@@ -259,10 +259,6 @@
     @apply text-lg font-semibold text-text-primary;
   }
 
-  .section-subtitle {
-    @apply text-sm text-text-muted mt-1;
-  }
-}
 .section-subtitle {
   @apply text-sm text-text-muted mt-1;
 }
