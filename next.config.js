@@ -5,7 +5,6 @@ const nextConfig = {
   },
   trailingSlash: true,
   // Enable for Vercel deployment
-  distDir: 'dist',
   // Environment variables available at build time
   env: {
     NEXT_PUBLIC_APP_NAME: 'Giondraga LegalOS',
