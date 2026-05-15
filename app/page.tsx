@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import {
   Shield,
@@ -94,11 +95,14 @@ export default function LandingPage() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary-500 to-accent-violet flex items-center justify-center">
-              <Shield className="w-4 h-4 text-white" />
-            </div>
-            <span className="text-lg font-bold text-text-primary">GIONDRAGA</span>
+          <div className="flex items-center">
+            <Image
+              src="/logo-giondraga.png"
+              alt="Giondraga"
+              width={260}
+              height={70}
+              className="object-contain"
+              />
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="#features" className="text-sm text-text-secondary hover:text-text-primary transition-colors">Features</a>
