@@ -7,9 +7,9 @@
     }
   ],
   "env": {
-    "NEXT_PUBLIC_SUPABASE_URL": "@supabase_url",
-    "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY": "@supabase_publishable_key",
-    "SUPABASE_SERVICE_ROLE_KEY": "@supabase_service_role_key"
+    "NEXT_PUBLIC_SUPABASE_URL": "https://vqybqhnrhtkniqrlukdk.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY": "ISI_PUBLISHABLE_KEY_ANDA",
+    "SUPABASE_SERVICE_ROLE_KEY": "ISI_SERVICE_ROLE_KEY_ANDA"
   },
   "headers": [
     {
